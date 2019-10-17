@@ -8,8 +8,13 @@
     ```
     cp config/secret.yml.example config/secret.yml
     ```
-2. Run:
+3. Run the following to authenticate your Google account and generate token:
+    ```
+    pip install -r requirements.txt
+    python sheets.py
+    ```
+4. Run:
     ```
     docker-compose up
     ```
-3. Navigate to `localhost:5000`
+5. Navigate to `localhost:5000`
