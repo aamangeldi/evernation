@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {
+            'packages':['geochart'],
+            'mapsApiKey': '{{ maps_api_key }}'
+        });
+        google.charts.setOnLoadCallback(drawRegionsMap);
+        var chart;
+        var options = {
+            colorAxis: {colors: ['#c4dbff', '#1973ff']}
+        };
+        var country_data =  {{ country_data|safe }};
+        function drawRegionsMap(question_index) {
+            if (question_index === undefined) {
+                question_index = 0;
+            }
+            var data = google.visualization.arrayToDataTable(
+                country_data[question_index]
+            );
+            if (chart === undefined) {
+                chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+            }
+            chart.draw(data, options);
+        }
+    </script>
+  </head>
+  <body>
+    <div style="width: 515px; height: 10vh; margin: 0 auto; padding-top: 1em;">
+        <select
+            class="custom-select"
+            onchange="drawRegionsMap(this.options[this.selectedIndex].value)">
+            {% for question in questions %}
+                <option value="{{loop.index0}}" {% if value == 0 %} selected {% endif %}>{{ question }}</option>"
+            {% endfor %}
+        </select>
+    </div>
+    <div id="regions_div" style="width: 100vw; height: 85vh;"></div>
+  </body>
+</html>

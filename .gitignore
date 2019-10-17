@@ -1,0 +1,4 @@
+token.pickle
+*.pyc
+credentials.json
+secret.yml

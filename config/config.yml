@@ -1,0 +1,2 @@
+maps_api_key: !read secret:maps_api_key
+google_spreadsheet_id: !read secret:google_spreadsheet_id

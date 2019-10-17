@@ -1,0 +1,16 @@
+version: '3.0'
+services:
+  app:
+    build:
+      args:
+        CHEESESHOP_USER: $CHEESESHOP_USER
+        CHEESESHOP_PASSWORD: $CHEESESHOP_PASSWORD
+        CHEESESHOP_INDEX: "cheeseshop.adh8.com/eq/base"
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - EQ_CONFIG=/app/config/config.yml
+    volumes:
+      - .:/app
+    ports:
+      - "5000:5000"
