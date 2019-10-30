@@ -16,7 +16,7 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
 # The ID and range of the spreadsheet
 SPREADSHEET_ID = CONFIG['google_spreadsheet_id']
-RANGE = 'D1:J29'
+RANGE = 'D1:J57'
 
 # TODO: replace, orienteer dev for now
 MAPS_API_KEY = CONFIG['maps_api_key']

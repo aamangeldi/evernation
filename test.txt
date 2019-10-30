@@ -1,0 +1,806 @@
+------------------------
+b'Where were you born?'
+b'Chongqing, China'
+['China']
+b'Moscow, Russia'
+['Russia']
+b'United States of America'
+['United States']
+b'Maine'
+['United States']
+b'California'
+['United States']
+b'Hyderabad, India'
+['India']
+b'Kokomo, Indiana, America baby'
+['United States']
+b'Nanjing, China'
+['China']
+b'USA'
+['United States']
+b'Canada'
+['Canada']
+b'Israel'
+['Israel']
+b'Almaty, Kazakhstan'
+['Kazakhstan']
+b'Albany, NY'
+['United States']
+b'Santa Clara, CA'
+['United States']
+b'Boston'
+['United States']
+b'USA'
+['United States']
+b'pisa, italy'
+['Italy']
+b'UK'
+['United Kingdom']
+b'Boston, MA, USA'
+['United States']
+b'Mexico'
+['Mexico']
+b'India'
+['India']
+b'India'
+['India']
+b'New York'
+['United States']
+b'Portland, Maine, US'
+['United States']
+b'Boston, MA'
+['United States']
+b'Brazil'
+['Brazil']
+b'Russia'
+['Russia']
+b'Addis Ababa, Ethiopia'
+['Ethiopia']
+b'Mississippi'
+['United States']
+b'Kunming, Yunnan, China'
+['China']
+b'Pittsburgh, PA'
+['United States']
+b'Romania'
+['Romania']
+b'United States'
+['United States']
+b'Anaheim, California'
+['United States']
+b'United States'
+['United States']
+b'Viet Nam'
+['Vietnam']
+b'United States'
+['United States']
+b'USA'
+['United States']
+b'Boston, MA'
+['United States']
+b'United States'
+['United States']
+b'Houston, TX'
+['United States']
+b'Boston'
+['United States']
+b'Birmingham, England'
+['United Kingdom']
+b'Boston, Massachusetts'
+['United States']
+b'1990'
+['UNCLEAR']
+b'Los Angeles'
+['United States']
+b'El Salvador'
+['El Salvador']
+b'China'
+['China']
+b'St. Lucia'
+['Saint Lucia']
+b'Casablanca, Morocco'
+['Morocco']
+b'Moscow, Russia'
+['Russia']
+b'Israel'
+['Israel']
+b'Moscow, Russia'
+['Russia']
+b'Dominican Republic'
+['Dominican Republic']
+b'TN'
+['United States']
+b'Huhhot, China'
+['China']
+{'China': 5, 'Russia': 4, 'United States': 27, 'India': 3, 'Canada': 1, 'Israel': 2, 'Kazakhstan': 1, 'Italy': 1, 'United Kingdom': 2, 'Mexico': 1, 'Brazil': 1, 'Ethiopia': 1, 'Romania': 1, 'Vietnam': 1, 'UNCLEAR': 1, 'El Salvador': 1, 'Saint Lucia': 1, 'Morocco': 1, 'Dominican Republic': 1}
+------------------------
+b'What do you consider your nationality?'
+b'China'
+['China']
+b'Nepali'
+['Nepal']
+b'American'
+['United States']
+b'American'
+['United States']
+b'American'
+['United States']
+b'Indian'
+['India']
+b'USA'
+['United States']
+b'Chinese'
+['China']
+b'American'
+['United States']
+b'Canadian-American'
+['United States', 'Canada']
+b'Israeli'
+['Israel']
+b'Kazakh / Ukrainian'
+['Kazakhstan', 'Ukraine']
+b'American with a Jamaican twist'
+['United States', 'Jamaica']
+b'American'
+['United States']
+b'Chinese American'
+['China', 'United States']
+b'American'
+['United States']
+b'italian and american'
+['United States', 'Italy']
+b'British'
+['United Kingdom']
+b'American'
+['United States']
+b'Mexican'
+['Mexico']
+b'USA'
+['United States']
+b'American'
+['United States']
+b'American'
+['United States']
+b'US'
+['United States']
+b'Russian-Jewish-American'
+['Russia', 'United States', 'Israel']
+b'Brazilian'
+['Brazil']
+b'Jewish'
+['Israel']
+b'Ethiopian'
+['Ethiopia']
+b'Chinese American'
+['China', 'United States']
+b'Chinese'
+['China']
+b'White/Caucasian'
+['United States']
+b'Romanian'
+['Romania']
+b'United States'
+['United States']
+b'Vietnamese'
+['Vietnam']
+b'American'
+['United States']
+b'Vietnamese'
+['Vietnam']
+b'United States'
+['United States']
+b'USA'
+['United States']
+b'American'
+['United States']
+b'American'
+['United States']
+b'American'
+['United States']
+b'French, Moroccan, American'
+['United States', 'Morocco', 'France']
+b'American'
+['United States']
+b'American'
+['United States']
+b'Canadian'
+['Canada']
+b'American'
+['United States']
+b'Salvadoran '
+['El Salvador']
+b'Chinese'
+['China']
+b'American'
+['United States']
+b'French/Moroccan'
+['Morocco', 'France']
+b'Depends on context'
+['UNCLEAR']
+b'Israeli'
+['Israel']
+b'Jewish'
+['Israel']
+b'Dominican'
+['Dominican Republic']
+b'American'
+['United States']
+b'Chinese'
+['China']
+{'China': 7, 'Nepal': 1, 'United States': 32, 'India': 1, 'Canada': 2, 'Israel': 5, 'Kazakhstan': 1, 'Ukraine': 1, 'Jamaica': 1, 'Italy': 1, 'United Kingdom': 1, 'Mexico': 1, 'Russia': 1, 'Brazil': 1, 'Ethiopia': 1, 'Romania': 1, 'Vietnam': 2, 'Morocco': 2, 'France': 2, 'El Salvador': 1, 'UNCLEAR': 1, 'Dominican Republic': 1}
+------------------------
+b'Which countries have you grown up in (rented, or owned a home) ?'
+b'China and Taiwan'
+['China', 'Taiwan']
+b'Nepal, Russia, Ukraine, Belarus, and now the US :)'
+['Russia', 'United States', 'Ukraine', 'Belarus', 'Nepal']
+b'United States of America'
+['United States']
+b'America'
+['United States']
+b'America'
+['United States']
+b'India'
+['India']
+b'USA'
+['United States']
+b'China'
+['China']
+b'USA'
+['United States']
+b'Canada, USA'
+['United States', 'Canada']
+b'Israel, now own a place in the US'
+['United States', 'Israel']
+b'Kazakhstan / Turkmenistan / Ukraine / UK / USA'
+['United States', 'Kazakhstan', 'Ukraine', 'United Kingdom', 'Turkmenistan']
+b'USAA, Jamaica, Scotland'
+['United States', 'Jamaica', 'United Kingdom']
+b'United States'
+['United States']
+b'USA'
+['United States']
+b'USA'
+['United States']
+b'italy'
+['Italy']
+b'UK'
+['United Kingdom']
+b'USA'
+['United States']
+b'Mexico, America'
+['United States', 'Mexico']
+b'India, USA'
+['United States', 'India']
+b'India, US'
+['United States', 'India']
+b'United States'
+['United States']
+b'US'
+['United States']
+b'US'
+['United States']
+b'Brazil (until 29 y/o)'
+['Brazil']
+b'Russia, USA, Israel, Canada'
+['Russia', 'United States', 'Canada', 'Israel']
+b'Ethiopia'
+['Ethiopia']
+b'USA'
+['United States']
+b'China'
+['China']
+b'United States'
+['United States']
+b'Romania, USA'
+['United States', 'Romania']
+b'United States'
+['United States']
+b'USA'
+['United States']
+b'USA'
+['United States']
+b'Viet Nam'
+['Vietnam']
+b'USA'
+['United States']
+b'USA'
+['United States']
+b'US'
+['United States']
+b'United States'
+['United States']
+b''
+['UNCLEAR']
+b'Morocco & France'
+['Morocco', 'France']
+b'US'
+['United States']
+b'only America'
+['United States']
+b'Canada'
+['Canada']
+b'U.S. and Spain'
+['United States', 'Spain']
+b'El Salvador, U.S.'
+['United States', 'El Salvador']
+b'China'
+['China']
+b'United States'
+['United States']
+b'Morocco, France'
+['Morocco', 'France']
+b'Russia'
+['Russia']
+b'Israel, USA'
+['United States', 'Israel']
+b'Russia, USA, Canada'
+['Russia', 'United States', 'Canada']
+b'Dominican Republic, Puerto Rico and USA'
+['United States', 'Dominican Republic']
+b'2'
+['UNCLEAR']
+b'China'
+['China']
+{'China': 5, 'Taiwan': 1, 'Russia': 4, 'United States': 39, 'Ukraine': 2, 'Belarus': 1, 'Nepal': 1, 'India': 3, 'Canada': 4, 'Israel': 3, 'Kazakhstan': 1, 'United Kingdom': 3, 'Turkmenistan': 1, 'Jamaica': 1, 'Italy': 1, 'Mexico': 1, 'Brazil': 1, 'Ethiopia': 1, 'Romania': 1, 'Vietnam': 1, 'UNCLEAR': 2, 'Morocco': 2, 'France': 2, 'Spain': 1, 'El Salvador': 1, 'Dominican Republic': 1}
+------------------------
+b'Which countries have you traveled to?'
+b'South Korea, Singapore, USA, Puerto Rico, England'
+['United States', 'United Kingdom']
+b'UK, France, Turkey, Budapest, Egypt'
+['France']
+b'United States of America, Canada'
+['United States', 'Canada']
+b'Mexico, PR (not a country but hey), Canada, Netherlands, UK, France, Germany'
+['United States', 'Canada', 'France', 'Mexico']
+b'Mexico, Canada, Australia, England, Spain, Romania, and Costa Rica'
+['United States', 'Canada', 'Romania', 'Spain', 'United Kingdom', 'Mexico']
+b'Canada, Saudi Arabia'
+['Canada']
+b'China, Japan, HK, France, Israel, Jordan, England, Canada'
+['China', 'United States', 'Canada', 'Israel', 'France', 'United Kingdom']
+b'U.S., Japan, Korea, Vietnam, Canada, Cuba, U.K.'
+['United States', 'Canada', 'Vietnam']
+b'USA'
+['United States']
+b'Australia, Greece, Denmark, Sweden, Switzerland, Germany, France, Netherlands'
+['France']
+b'France, The Netherlands, England, Denmark, New Zealand, Australia, Hong Kong, Canada, Switzerland'
+['United States', 'Canada', 'France', 'United Kingdom']
+b'~30-40 different countries...'
+['UNCLEAR']
+b'Jamaica, Canada, Scotland, England, Ireland, India, Mexico, Bulgaria, Netherlands '
+['United States', 'India', 'Canada', 'Jamaica', 'United Kingdom', 'Mexico']
+b'Mexico, Canada, China, UK, Netherlands, Spain'
+['China', 'United States', 'Canada', 'Spain', 'Mexico']
+b'China, Thailand, Canada'
+['China', 'United States', 'Canada']
+b'Argentina, Dominican Republic, Canada'
+['United States', 'Canada', 'Dominican Republic']
+b''
+['UNCLEAR']
+b'the good ones'
+['UNCLEAR']
+b'Canada, UK, Iceland, Germany, Czechia, Netherlands, Denmark, Switzerland, Thailand, China, HK, Taiwan, South Korea, Japan'
+['China', 'Canada', 'Taiwan']
+b'Mexico, America, Germany, Austria, Spain, France, Czechia, Italy, England'
+['United States', 'France', 'Spain', 'Italy', 'United Kingdom', 'Mexico']
+b''
+['UNCLEAR']
+b'44 countries and counting'
+['UNCLEAR']
+b'Mexico, Canada, Chile, China, India, Spain, Italy, France, Bahamas'
+['China', 'United States', 'India', 'Canada', 'France', 'Spain', 'Italy', 'Mexico']
+b''
+['UNCLEAR']
+b'Russia, Thailand, Spain, France, Sweden, Jamaica, Mexico, Canada, Argentina, Uruguay, Switzerland, Germany, Czechia, Hungary, Italy, Israel, UK, Denmark, Dominican Republic, Croatia, Peru'
+['Russia', 'United States', 'Canada', 'Israel', 'Dominican Republic', 'France', 'Spain', 'Jamaica', 'Italy', 'Mexico']
+b'Brazil, USA, Uruguay, Argentina, Paraguay, Panama'
+['United States', 'Brazil']
+b'more than 30 countries'
+['UNCLEAR']
+b''
+['UNCLEAR']
+b'China, Canada, Mexico, Vietnam, Thailand, Cambodia, Spain'
+['China', 'United States', 'Canada', 'Vietnam', 'Spain', 'Mexico']
+b'only US'
+['UNCLEAR']
+b'Switzerland, Canada, Mexico, Spain, France, Italy, England, Dominican Republic, Costa Rica'
+['United States', 'Canada', 'Dominican Republic', 'France', 'Spain', 'Italy', 'United Kingdom', 'Mexico']
+b'Aruba, Austria, Canada, Costa Rica, Italy, France, Greece, Hungary, Switzerland, Netherlands'
+['United States', 'Canada', 'France', 'Italy']
+b'United States, Lebanon, Canada'
+['United States', 'Canada']
+b'Mexico, Bahamas, Vietnam, UK, France'
+['Vietnam', 'France', 'Mexico']
+b'UK, France, Israel, Netherlands'
+['Israel', 'France']
+b'Singapore, Hong kong, Australia, Japan, Canada'
+['United States', 'Canada']
+b'Cuba, Canada, Mexico, Panama'
+['United States', 'Canada', 'Mexico']
+b'Canada, Mexico, Costa Rica, Hong Kong, New Zealand'
+['Canada', 'Mexico']
+b'Mexico, Jamaica, Ecuador, Peru, Scotland, Italy, Denmark, Netherlands, France, Thailand, Vietnam, Cambodia, Aruba'
+['United States', 'Vietnam', 'France', 'Jamaica', 'Italy', 'United Kingdom', 'Mexico']
+b'Canada, Mexico, Bahamas, Aruba, Curacao, Dominica'
+['Canada', 'Mexico']
+b'Norway, Morocco, Spain, France, England, Italy, Germany, Denmark, Indonesia, Japan'
+['Morocco', 'France', 'Spain', 'Italy', 'United Kingdom']
+b'Morocco, France, USA, Spain, Italy, England, Canada, Mexico'
+['United States', 'Canada', 'Morocco', 'France', 'Spain', 'Italy', 'United Kingdom', 'Mexico']
+b'25+'
+['UNCLEAR']
+b'America, Canada, the Bahamas, Sweden, France, Spain, Mexico'
+['United States', 'Canada', 'France', 'Spain', 'Mexico']
+b'Australia, New Zealand, Thailand, Vietnam, China, Korea, Egypt, Kenya, Tanzania, South Africa, Greece, Croatia, Germany, Czech Republic, Netherlands, France, Spain, UK, Mexico, Nicaragua, Costa Rica, Cambodia, Italy'
+['China', 'United States', 'Vietnam', 'France', 'Spain', 'Italy', 'Mexico']
+b'Spain, France, and Mexico'
+['France', 'Spain', 'Mexico']
+b'El Salvador, Guatemala, Honduras, Nicaragua, Costa Rica, Panama, Mexico, U.S., Spain, France, Belgium, England, Italy. '
+['United States', 'El Salvador', 'France', 'Spain', 'Italy', 'United Kingdom', 'Mexico']
+b'many'
+['UNCLEAR']
+b'St. Lucia, Canada, Mexico, Great Britain, France, Italy, Germany'
+['United States', 'Canada', 'Saint Lucia', 'France', 'Italy', 'Mexico']
+b'Canada, Mexico, Chile, England, Belgium, Spain, Italy'
+['Canada', 'Spain', 'Italy', 'United Kingdom', 'Mexico']
+b'Too many to list. All over Europe.'
+['UNCLEAR']
+b''
+['UNCLEAR']
+b'30+ countries'
+['UNCLEAR']
+b'United Arab Emirates, Mexico, Jamaica, Bahamas'
+['Jamaica', 'Mexico']
+b'10'
+['UNCLEAR']
+b'China, USA, Germany, Austria, Switzerland'
+['China', 'United States']
+{'United States': 29, 'United Kingdom': 12, 'France': 20, 'Canada': 26, 'Mexico': 22, 'Romania': 1, 'Spain': 14, 'China': 8, 'Israel': 3, 'Vietnam': 5, 'UNCLEAR': 15, 'India': 2, 'Jamaica': 4, 'Dominican Republic': 3, 'Taiwan': 1, 'Italy': 12, 'Russia': 1, 'Brazil': 1, 'Morocco': 2, 'El Salvador': 1, 'Saint Lucia': 1}
+------------------------
+b'What languages do you speak ?'
+b'Chinese'
+['China']
+b'Nepali, Russian, English'
+['Russia', 'Nepal']
+b'English, ASL(Formerly)'
+['UNCLEAR']
+b'English, can understand a teeny bit of spanish'
+['United States']
+b'English'
+['UNCLEAR']
+b'English, Hindi, Telugu'
+['UNCLEAR']
+b'English, Mandarin'
+['UNCLEAR']
+b'Chinese & Japanese (other than English)'
+['China']
+b'English, Spanish'
+['UNCLEAR']
+b'English'
+['UNCLEAR']
+b'Hebrew, English'
+['UNCLEAR']
+b'English / Russian / Ukrainian'
+['Russia', 'Ukraine']
+b'English'
+['UNCLEAR']
+b'English, Vietnamese (fluent); Spanish, Mandarin Chinese (basic)'
+['China', 'Vietnam']
+b'Mandarin'
+['UNCLEAR']
+b'English and Spanish'
+['UNCLEAR']
+b'italian, english, swedish, some french'
+['France', 'Italy']
+b'none'
+['UNCLEAR']
+b'English, Cantonese'
+['United States']
+b'Spanish, English, German'
+['UNCLEAR']
+b''
+['UNCLEAR']
+b'Extremely fluent (English), 5th grade level (Tamil, Hindi)'
+['UNCLEAR']
+b'English, Spanish'
+['UNCLEAR']
+b'english'
+['UNCLEAR']
+b'Russian, English, Spanish'
+['Russia']
+b'English, Portuguese and Spanish. (Trying to learn German, but not enough time besides playing Secret Hitler)'
+['UNCLEAR']
+b'Russian, English, some Heberew'
+['Russia']
+b'Amharic, Tigrigna, English'
+['UNCLEAR']
+b'English, Mandarin'
+['UNCLEAR']
+b'Mandarin, English'
+['UNCLEAR']
+b'English, some Spanish'
+['UNCLEAR']
+b'Romanian, English'
+['Romania']
+b'English'
+['UNCLEAR']
+b'English'
+['UNCLEAR']
+b'English'
+['UNCLEAR']
+b'Vietnamese'
+['Vietnam']
+b'English, Spanish'
+['UNCLEAR']
+b'English'
+['UNCLEAR']
+b'English, Italian, Spanish'
+['Italy']
+b'English'
+['UNCLEAR']
+b'Spanish, French'
+['France']
+b'French, Arabic, English, basic Spanish'
+['France']
+b'English'
+['UNCLEAR']
+b'only English'
+['UNCLEAR']
+b'English (native), French (limited)'
+['France']
+b'Conversationally in both Korean and Spanish'
+['UNCLEAR']
+b'Spanish, English, French '
+['France']
+b'Chinese, English'
+['China']
+b'English, conversational French'
+['France']
+b'French, English, Arabic'
+['France']
+b'English, Russian'
+['Russia']
+b'Hebrew, English'
+['UNCLEAR']
+b'Russian, Hebrew, English'
+['Russia']
+b'English and Spanish'
+['UNCLEAR']
+b'English, Mandarin'
+['UNCLEAR']
+b'Mandarin, English'
+['UNCLEAR']
+{'China': 4, 'Russia': 6, 'Nepal': 1, 'UNCLEAR': 34, 'United States': 2, 'Ukraine': 1, 'Vietnam': 2, 'France': 7, 'Italy': 2, 'Romania': 1}
+------------------------
+b'Did you grow up in a different country than your parents did (and if so where)?'
+b'No'
+['UNCLEAR']
+b'I grew up in Ukraine, they grew up in Nepal'
+['Ukraine', 'Nepal']
+b'No'
+['UNCLEAR']
+b'No'
+['UNCLEAR']
+b'Grew up in the same country as my parents'
+['UNCLEAR']
+b'Nope'
+['UNCLEAR']
+b'Yes, parents grew up in China, me in USA'
+['China', 'United States']
+b'no'
+['UNCLEAR']
+b'Parents are Filipino'
+['UNCLEAR']
+b'Yes. They are both Canadian; we moved from Canada to MA when I was 9 years old.'
+['Canada']
+b'No'
+['UNCLEAR']
+b'Parents grew up in Kazakhstan, I grew up mostly in Ukraine'
+['Kazakhstan', 'Ukraine']
+b'Yes, USAA (parents grew up in Jamaica)'
+['United States', 'Jamaica']
+b'Yes, parents grew up in Vietnam and I grew up in the United States'
+['United States', 'Vietnam']
+b'I was in America, parents in China'
+['China', 'United States']
+b'yes, they grew up in Argentina and Peru'
+['UNCLEAR']
+b'no'
+['UNCLEAR']
+b'no'
+['UNCLEAR']
+b'Yes, USA'
+['United States']
+b'America'
+['United States']
+b''
+['UNCLEAR']
+b'Yes, US'
+['United States']
+b'Yes. My parents grew up in Chile & Trinidad.'
+['UNCLEAR']
+b'No'
+['UNCLEAR']
+b'yes, my parents grew up in the Soviet Union (Moscow and St. Petersburg, so Russia today)'
+['Russia']
+b'Nein ( <-- see? )'
+['UNCLEAR']
+b'Yes, US'
+['United States']
+b'No'
+['UNCLEAR']
+b'Yes, USA (they grew up in China)'
+['China', 'United States']
+b'No'
+['UNCLEAR']
+b'No'
+['UNCLEAR']
+b'No'
+['UNCLEAR']
+b'Yes - i grew up in the US, my parents grew up in Lebanon'
+['United States']
+b'Yes, my parents had their childhood in Vietnam while I was born and raised in the USA.'
+['United States', 'Vietnam']
+b''
+['UNCLEAR']
+b'No'
+['UNCLEAR']
+b'No'
+['UNCLEAR']
+b'No'
+['UNCLEAR']
+b'No'
+['UNCLEAR']
+b'No'
+['UNCLEAR']
+b'no'
+['UNCLEAR']
+b''
+['UNCLEAR']
+b'Grew up in America, my dad is British'
+['United States', 'United Kingdom']
+b'No'
+['UNCLEAR']
+b'No'
+['UNCLEAR']
+b'United States (They grew up in Korea)'
+['United States']
+b''
+['UNCLEAR']
+b'nope'
+['UNCLEAR']
+b'No'
+['UNCLEAR']
+b''
+['UNCLEAR']
+b'No'
+['UNCLEAR']
+b''
+['UNCLEAR']
+b''
+['UNCLEAR']
+b'no'
+['UNCLEAR']
+b'Yes, they grew up in China I grew up in U.S.'
+['China', 'United States']
+b'No'
+['UNCLEAR']
+{'UNCLEAR': 38, 'Ukraine': 2, 'Nepal': 1, 'China': 4, 'United States': 14, 'Canada': 1, 'Kazakhstan': 1, 'Jamaica': 1, 'Vietnam': 2, 'Russia': 1, 'United Kingdom': 1}
+------------------------
+b'Whats your favorite food? (And what country is it from?) (Pizza is an acceptable answer ) '
+b'Hotpot'
+['UNCLEAR']
+b'MOMOs (Nepal)'
+['Nepal']
+b'Pasta, Mostly from the USA'
+['United States']
+b'Sushi, specifically big slabs of tuna sashimi'
+['UNCLEAR']
+b'Pasta, Italy'
+['Italy']
+b'Biryani(Indian)'
+['India']
+b'There are too many answers, but Japan and China have lots of them. Maybe A5 wagyu or otoro'
+['China']
+b'steamed dumplings (China)'
+['China']
+b'Potatoes, which are apples of the Earth'
+['UNCLEAR']
+b'Hawaiian pizza but also ketchup chips, nanaimo bar (Canada)'
+['Canada']
+b'Pasta, Italy'
+['Italy']
+b'Manty (Central Asian dumplings)'
+['UNCLEAR']
+b'Honestly, most homecooking - Salt Fat Acid Heat, baby!'
+['UNCLEAR']
+b'Sushi, Japan'
+['UNCLEAR']
+b''
+['UNCLEAR']
+b'Paella, from Argentina'
+['UNCLEAR']
+b''
+['UNCLEAR']
+b'variety is the spice of life'
+['UNCLEAR']
+b'Curry (because it has multiple iterations from various countries)'
+['UNCLEAR']
+b'Carne Asada Tacos'
+['UNCLEAR']
+b''
+['UNCLEAR']
+b'Pho'
+['UNCLEAR']
+b'Sushi - Japan'
+['UNCLEAR']
+b''
+['UNCLEAR']
+b'sushi, japan'
+['UNCLEAR']
+b'Sushi and Lasagna'
+['UNCLEAR']
+b'Crepes with black caviar :)'
+['UNCLEAR']
+b'Tibs, Ethiopia'
+['Ethiopia']
+b'Dumplings (poke is probably a close second)'
+['UNCLEAR']
+b'Sichuan/Chongqing hotpot'
+['UNCLEAR']
+b'Sushi (Japan)'
+['UNCLEAR']
+b''
+['UNCLEAR']
+b'Stuffed Grape Leaves (Warak Arish) - Lebanon!'
+['UNCLEAR']
+b'Ramen (Japan)'
+['UNCLEAR']
+b''
+['UNCLEAR']
+b'Pho (Viet Nam), Sushi (Japan), Pizza (Clam Pizza- Pepe/ Area4)'
+['Vietnam']
+b''
+['UNCLEAR']
+b'Sushi'
+['UNCLEAR']
+b'Chiles rellenos (mexico)'
+['Mexico']
+b'Macaroni and cheese (origin is disputed but Wikipedia claims England)'
+['United Kingdom']
+b'Dal! India'
+['India']
+b'Greek Chicken Kebabs with Tzatziki Sauce'
+['UNCLEAR']
+b'Bibimbap (Korea)'
+['UNCLEAR']
+b'Juevos Rancheros (specifically from El Patio in Albuquerque NM with hatch green chile)'
+['UNCLEAR']
+b"I can't decide!!"
+['UNCLEAR']
+b"This is a tough one...I'm going to say sushi (Japan)"
+['UNCLEAR']
+b'Pupusas --> The most popular Salvadoran dish'
+['United States', 'El Salvador']
+b'Hot pot (maybe China?? but also love Japanese style hotpot) '
+['China']
+b'Sushi'
+['UNCLEAR']
+b'Sushi'
+['UNCLEAR']
+b''
+['UNCLEAR']
+b''
+['UNCLEAR']
+b''
+['UNCLEAR']
+b'Rice, beans and Steak'
+['UNCLEAR']
+b'anything Asian'
+['UNCLEAR']
+b'Chinese food'
+['China']
+{'UNCLEAR': 40, 'Nepal': 1, 'United States': 2, 'Italy': 2, 'India': 2, 'China': 4, 'Canada': 1, 'Ethiopia': 1, 'Vietnam': 1, 'Mexico': 1, 'United Kingdom': 1, 'El Salvador': 1}
+[[['Country', b'Where were you born?'], ['China', 5], ['Russia', 4], ['United States', 27], ['India', 3], ['Canada', 1], ['Israel', 2], ['Kazakhstan', 1], ['Italy', 1], ['United Kingdom', 2], ['Mexico', 1], ['Brazil', 1], ['Ethiopia', 1], ['Romania', 1], ['Vietnam', 1], ['UNCLEAR', 1], ['El Salvador', 1], ['Saint Lucia', 1], ['Morocco', 1], ['Dominican Republic', 1]], [['Country', b'What do you consider your nationality?'], ['China', 7], ['Nepal', 1], ['United States', 32], ['India', 1], ['Canada', 2], ['Israel', 5], ['Kazakhstan', 1], ['Ukraine', 1], ['Jamaica', 1], ['Italy', 1], ['United Kingdom', 1], ['Mexico', 1], ['Russia', 1], ['Brazil', 1], ['Ethiopia', 1], ['Romania', 1], ['Vietnam', 2], ['Morocco', 2], ['France', 2], ['El Salvador', 1], ['UNCLEAR', 1], ['Dominican Republic', 1]], [['Country', b'Which countries have you grown up in (rented, or owned a home) ?'], ['China', 5], ['Taiwan', 1], ['Russia', 4], ['United States', 39], ['Ukraine', 2], ['Belarus', 1], ['Nepal', 1], ['India', 3], ['Canada', 4], ['Israel', 3], ['Kazakhstan', 1], ['United Kingdom', 3], ['Turkmenistan', 1], ['Jamaica', 1], ['Italy', 1], ['Mexico', 1], ['Brazil', 1], ['Ethiopia', 1], ['Romania', 1], ['Vietnam', 1], ['UNCLEAR', 2], ['Morocco', 2], ['France', 2], ['Spain', 1], ['El Salvador', 1], ['Dominican Republic', 1]]]

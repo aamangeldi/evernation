@@ -54,7 +54,7 @@ def get_sheets_data(spreadsheet_id, range, scopes):
 
 
 def identify_countries(bad_data):
-    bad_data = bad_data.lower()
+    bad_data = bad_data.lower().decode("utf-8")
     identified = []
     if any(
         hint in bad_data for hint in [
@@ -69,7 +69,7 @@ def identify_countries(bad_data):
         ]
     ):
         identified.append('China')
-    if bad_data == 'us' or any(
+    if bad_data == 'us' or bad_data == 'tn' or any(
         hint in bad_data for hint in [
             'united states',
             'maine',
@@ -83,6 +83,12 @@ def identify_countries(bad_data):
             'the us',
             '/ usa',
             ', us',
+            'mississippi',
+            ', pa',
+            ', tx',
+            'los angeles',
+            'white/caucasian', # ?
+            'u.s.',
         ]
     ):
         identified.append('United States')
@@ -106,6 +112,57 @@ def identify_countries(bad_data):
         ]
     ):
         identified.append('Israel')
+    if any(
+        hint in bad_data for hint in [
+            'el salvador',
+            'salvadoran',
+        ]
+    ):
+        identified.append('El Salvador')
+    if any(
+        hint in bad_data for hint in [
+            'dominican',
+        ]
+    ):
+        identified.append('Dominican Republic')
+    if any(
+        hint in bad_data for hint in [
+            'morocc',
+        ]
+    ):
+        identified.append('Morocco')
+    if any(
+        hint in bad_data for hint in [
+            'st. lucia',
+        ]
+    ):
+        identified.append('Saint Lucia')
+    if any(
+        hint in bad_data for hint in [
+            'viet nam',
+            'vietnam',
+        ]
+    ):
+        identified.append('Vietnam')
+    if any(
+        hint in bad_data for hint in [
+            'french',
+            'france',
+        ]
+    ):
+        identified.append('France')
+    if any(
+        hint in bad_data for hint in [
+            'romania',
+        ]
+    ):
+        identified.append('Romania')
+    if any(
+        hint in bad_data for hint in [
+            'spain',
+        ]
+    ):
+        identified.append('Spain')
     if any(
         hint in bad_data for hint in [
             'kazakh',
@@ -138,6 +195,7 @@ def identify_countries(bad_data):
             'british',
             '/ uk /',
             'scotland',
+            'england',
         ]
     ):
         identified.append('United Kingdom')
@@ -224,7 +282,7 @@ if __name__ == '__main__':
 
     # The ID and range of a sample spreadsheet.
     SPREADSHEET_ID = CONFIG['google_spreadsheet_id']
-    RANGE = 'D1:J29'
+    RANGE = 'D1:J57'
 
     data = get_sheets_data(SPREADSHEET_ID, RANGE, SCOPES)
     country_data = extract_country_data(data)
